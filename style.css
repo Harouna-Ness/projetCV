@@ -33,6 +33,7 @@ body{
     display: grid;
     align-content: space-between;
     margin-right: 20px;
+    margin-left: 10px;
 }
 
 .profil{
@@ -79,6 +80,10 @@ section ul{
     font-size: 15px;
 }
 
+.contact{
+    font-size: smaller;
+}
+
 .contact p{
     line-height: 10px;
     margin: 5px 0px 0px 5px;
@@ -90,6 +95,7 @@ section ul{
 
 main{
     padding-top: 10px;
+    margin-right: 10px;
 }
 
 .Apropos p{
@@ -98,7 +104,6 @@ main{
 
 .flex{
     display: flex;
-    padding-right: 7px;
     justify-content: space-between;
 }
 
@@ -115,7 +120,7 @@ main{
 }
 
 .Experiences p{
-    font-size: small;
+    font-size: 12px;
     font-weight: 600;
     margin-block-start: -5px;
 }
@@ -129,3 +134,14 @@ main{
     margin-block-start: 10px;
     margin-block-end: -1em;
 }
+
+/* @media screen and (max-width: 300px) {
+    body{
+        background-color: aqua;
+    }
+
+    .monCV{
+        width: 300PX;
+        background-color: #17191B;
+    }
+} */
