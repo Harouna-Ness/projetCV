@@ -1,3 +1,7 @@
+:root {
+    --bg-color: #17191B;
+    --bg-color1: #C5C4C1;
+}
 
 *{
     box-sizing: border-box;
@@ -28,7 +32,7 @@ body{
 .lateral{
     width: 200px;
     height: 842px;
-    background-color: #C5C4C1;
+    background-color: var(--bg-color1);
     color: white;
     display: grid;
     align-content: space-between;
@@ -39,7 +43,7 @@ body{
 .profil{
     height: 273px;
     width: 200px;
-    background-color: #17191B;
+    background-color: var(--bg-color);
     text-align: center;
     display: flex;
     flex-direction: column;
