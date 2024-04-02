@@ -19,7 +19,6 @@ body{
     position: relative;
     min-height: 100px;
     max-width: 842px;
-    width: 100%;
 }
 
 .monCV{
@@ -139,13 +138,86 @@ main{
     margin-block-end: -1em;
 }
 
-/* @media screen and (max-width: 300px) {
-    body{
-        background-color: aqua;
+header {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {    
+    .monCV{
+        border: 1px solid black;
+        height: auto;
+        width: 400px;
+        display: block;
+    }
+    
+    .lateral{
+        display: none;
     }
 
-    .monCV{
-        width: 300PX;
-        background-color: #17191B;
+    main{
+        margin-left: 10px;
     }
-} */
+
+    header {
+        display: block;
+    }
+
+    footer {
+        display: block;
+    }
+
+    header .profil{
+        height: 273px;
+        width: auto;
+        border-radius: 0px;
+        color: white;
+    }
+
+    .info{
+        height: 150px;
+        width: auto;
+        color: white;
+        background-color: var(--bg-color);
+        padding-top: 10px;
+        border-radius: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .formations{
+        margin-top: 0px;
+    }
+
+    .langues{
+        margin-right: 20px;
+    }
+
+    footer .contact{
+        background-color: var(--bg-color1);
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {    
+    .monCV{
+        border: 1px solid black;
+        height: auto;
+        width: 300px;
+        display: block;
+    }
+    .info h3, .contact h3{
+        padding-left: 10px;
+    }
+    
+    section ul{
+        font-size: 12px;
+    }
+
+    main{
+        padding-left: 10px;
+    }
+}
